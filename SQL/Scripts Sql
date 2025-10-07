@@ -4,7 +4,7 @@ create table public.categorias (
   nome text not null,
   descricao text
 );
-drop table public.livros
+
 -- Tabela de livros
 create table public.livros (
   id uuid primary key default gen_random_uuid(),
