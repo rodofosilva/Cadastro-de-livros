@@ -1,0 +1,41 @@
+-- Tabela de categorias
+create table public.categorias (
+  id uuid primary key default gen_random_uuid(),
+  nome text not null,
+  descricao text
+);
+drop table public.livros
+-- Tabela de livros
+create table public.livros (
+  id uuid primary key default gen_random_uuid(),
+  titulo text not null,
+  autor text not null,
+  ano_publicacao int,
+  preco numeric(10,2),
+  categoria_id uuid references public.categorias(id) on delete set null
+);
+
+create or replace view public.view_livros_com_categorias as
+select 
+  l.id,
+  l.titulo,
+  l.autor,
+  l.ano_publicacao,
+  c.nome as categoria,
+  l.preco
+from public.livros l
+left join public.categorias c on l.categoria_id = c.id;
+
+create or replace function public.inserir_livro(
+  p_titulo text,
+  p_autor text,
+  p_ano_publicacao int,
+  p_categoria_id uuid,
+  p_preco numeric
+)
+returns void as $$
+begin
+  insert into public.livros (titulo, autor, ano_publicacao, categoria_id, preco)
+  values (p_titulo, p_autor, p_ano_publicacao, p_categoria_id, p_preco);
+end;
+$$ language plpgsql;
