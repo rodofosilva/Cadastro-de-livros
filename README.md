@@ -1,6 +1,6 @@
-# 📚 Cadastro de Livros — Supabase + WeWeb
+# 📚 Cadastro de Livros — Supabase + Lovable
 
-Projeto desenvolvido para demonstrar o uso do **Supabase** como backend e **WeWeb** (ou Lovable) como front-end visual, implementando um CRUD completo de **livros** com categorias e autores.
+Projeto desenvolvido para demonstrar o uso do **Supabase** como backend e **Lovable** (ou Lovable) como front-end visual, implementando um CRUD completo de **livros** com categorias e autores.
 
 ---
 
@@ -10,7 +10,7 @@ Projeto desenvolvido para demonstrar o uso do **Supabase** como backend e **WeWe
 - View agregada com informações de autor, status e preço
 - Funções e procedures em PL/pgSQL
 - Conexão do front-end com Supabase
-- Interface visual criada no WeWeb/Lovable
+- Interface visual criada no Lovable
 
 ---
 
@@ -42,11 +42,11 @@ Todos os arquivos podem ser executados diretamente no **SQL Editor do Supabase**
 2. Acesse a aba **SQL Editor** e cole o conteúdo de `01_schema.sql`.  
 3. Execute também `02_inserts.sql`, `03_functions.sql` e `04_views.sql`.  
 4. Copie a **URL do projeto** e a **anon key**.  
-5. No WeWeb/Lovable, conecte usando essas credenciais para consumir os dados.
+5. No Lovable, conecte usando essas credenciais para consumir os dados.
 
 ---
 
-## 💻 Interface (WeWeb ou Lovable)
+## 💻 Interface (Lovable)
 
 - Página **Listagem de Livros** – mostra todos os livros com título, autor, categoria e preço.  
 - Página **Cadastro/Edição** – formulário para adicionar ou atualizar livros.  
