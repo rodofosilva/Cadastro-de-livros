@@ -82,3 +82,6 @@ Demonstração das telas e do banco de dados:
 ## 👨‍💻 Autor
 Desenvolvido por [Rodofo Dheymison].  
 Projeto acadêmico — Banco de Dados / Desenvolvimento Lovable.
+Disciplina: Projeto de Banco de Dados
+Instituição: Centro Universitário Santo Agostinho
+Professor: Anderson Soares Costa
