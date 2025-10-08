@@ -54,14 +54,6 @@ Todos os arquivos podem ser executados diretamente no **SQL Editor do Supabase**
 
 Use a **view** ou os **endpoints REST do Supabase** para preencher os componentes.
 
----
-
-## 📷 Prints do Sistema
-| Tela | Imagem |
-|------|--------|
-| Listagem | ![Listagem](docs/print_tela_listagem.png) |
-| Cadastro | ![Cadastro](docs/print_tela_cadastro.png) |
-| Detalhes | ![Detalhes](docs/print_tela_detalhes.png) |
 
 ---
 
