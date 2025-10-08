@@ -80,5 +80,5 @@ Demonstração das telas e do banco de dados:
 ---
 
 ## 👨‍💻 Autor
-Desenvolvido por [Seu Nome].  
-Projeto acadêmico — Banco de Dados / Desenvolvimento Web.
+Desenvolvido por [Rodofo Dheymison].  
+Projeto acadêmico — Banco de Dados / Desenvolvimento Lovable.
