@@ -1,6 +1,6 @@
 # 📚 Cadastro de Livros — Supabase + Lovable
 
-Projeto desenvolvido para demonstrar o uso do **Supabase** como backend e **Lovable** (ou Lovable) como front-end visual, implementando um CRUD completo de **livros** com categorias e autores.
+Projeto desenvolvido para demonstrar o uso do **Supabase** como backend e **Lovable* como front-end visual, implementando um CRUD completo de **livros** com categorias e autores.
 
 ---
 
